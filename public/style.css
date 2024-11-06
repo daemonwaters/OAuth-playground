@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 1rem 0.5rem;
+  background: linear-gradient(rgb(30, 173, 244), rgb(7, 76, 154));
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+#google-login {
+  padding: 0.8rem 1.5rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 100px;
+  background: rgb(231, 93, 77);
+  margin-left: 0.5rem;
+}
